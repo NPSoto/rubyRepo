@@ -8,7 +8,8 @@ def rotateArray (array, jumps)
     ##puts("Nuevo indice para #{index} es #{newIndex}")
     result[newIndex]=val
   }
-  return result
+  puts (result.to_s)
+  return
 end
 
 def getJumpedIndex (index, jumps, length)
